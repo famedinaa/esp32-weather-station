@@ -1,8 +1,7 @@
 # ESP32 weather station firmware that doesn't lose readings
 
-Firmware for an ESP32 + BME280 station that publishes over MQTT to the
-[plant monitor](../../Upwork/Electrónica%20y%20embebidos/MQTT%20IoT%20Panel) (sensors → broker → PostgreSQL → live
-panel). The panel side already survives broker restarts and duplicates. This is the **device side**:
+Firmware for an ESP32 + BME280 station that publishes over MQTT to a plant monitor I built earlier
+(sensors → Aedes broker → PostgreSQL → live panel, Node/TypeScript). The panel side already survives broker restarts and duplicates. This is the **device side**:
 what an ESP32 has to do so that Wi-Fi drops, broker hiccups and lost packets don't leave holes in
 the data.
 
