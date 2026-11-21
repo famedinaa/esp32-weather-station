@@ -1,0 +1,5 @@
+.pio/
+build/
+include/config.h
+host/node_modules/
+.vscode/

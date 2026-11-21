@@ -1,0 +1,13 @@
+{
+  "name": "estacion-esp32-host",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "bridge": "node bridge.mjs",
+    "e2e": "node e2e.mjs"
+  },
+  "dependencies": {
+    "mqtt": "^5.16.1",
+    "pg": "^8.23.1"
+  }
+}
